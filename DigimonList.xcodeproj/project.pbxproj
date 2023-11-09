@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3624699B9ED3D97D04049588 /* Pods_DigimonList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B032DFAD446E73E97E59AEC0 /* Pods_DigimonList.framework */; };
 		90946E0D2AFCA66900732D0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90946E0C2AFCA66900732D0B /* AppDelegate.swift */; };
-		90946E0F2AFCA66900732D0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90946E0E2AFCA66900732D0B /* SceneDelegate.swift */; };
-		90946E112AFCA66900732D0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90946E102AFCA66900732D0B /* ViewController.swift */; };
-		90946E142AFCA66900732D0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90946E122AFCA66900732D0B /* Main.storyboard */; };
 		90946E162AFCA66B00732D0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90946E152AFCA66B00732D0B /* Assets.xcassets */; };
 		90946E192AFCA66B00732D0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90946E172AFCA66B00732D0B /* LaunchScreen.storyboard */; };
+		90946E272AFCA8F200732D0B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90946E252AFCA8F200732D0B /* ListViewController.swift */; };
+		90946E282AFCA8F200732D0B /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90946E262AFCA8F200732D0B /* ListViewController.xib */; };
+		90946E2B2AFCAA3300732D0B /* ReponseDigimonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90946E2A2AFCAA3300732D0B /* ReponseDigimonList.swift */; };
+		90946E2D2AFCAA8700732D0B /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90946E2C2AFCAA8700732D0B /* ListViewModel.swift */; };
+		90946E2F2AFCAAC100732D0B /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90946E2E2AFCAAC100732D0B /* ApiRouter.swift */; };
+		90946E312AFCAB1F00732D0B /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90946E302AFCAB1F00732D0B /* ApiServices.swift */; };
+		90946E362AFCAF3F00732D0B /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90946E342AFCAF3F00732D0B /* ListViewCell.swift */; };
+		90946E372AFCAF3F00732D0B /* ListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90946E352AFCAF3F00732D0B /* ListViewCell.xib */; };
+		90946E3A2AFCB0BB00732D0B /* NSObject+className.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90946E392AFCB0BB00732D0B /* NSObject+className.swift */; };
+		90946E3D2AFCBEA000732D0B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90946E3C2AFCBEA000732D0B /* CollectionViewController.swift */; };
+		90946E412AFCC02A00732D0B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90946E3F2AFCC02A00732D0B /* CollectionViewCell.swift */; };
+		90946E422AFCC02A00732D0B /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90946E402AFCC02A00732D0B /* CollectionViewCell.xib */; };
+		90946E452AFCC12800732D0B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90946E442AFCC12800732D0B /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73E714CC307A91E53791CA82 /* Pods-DigimonList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigimonList.debug.xcconfig"; path = "Target Support Files/Pods-DigimonList/Pods-DigimonList.debug.xcconfig"; sourceTree = "<group>"; };
+		8801570DC1E2878DAAEFD7EF /* Pods-DigimonList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigimonList.release.xcconfig"; path = "Target Support Files/Pods-DigimonList/Pods-DigimonList.release.xcconfig"; sourceTree = "<group>"; };
 		90946E092AFCA66900732D0B /* DigimonList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigimonList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90946E0C2AFCA66900732D0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90946E0E2AFCA66900732D0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		90946E102AFCA66900732D0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		90946E132AFCA66900732D0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90946E152AFCA66B00732D0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90946E182AFCA66B00732D0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90946E1A2AFCA66B00732D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90946E252AFCA8F200732D0B /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		90946E262AFCA8F200732D0B /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		90946E2A2AFCAA3300732D0B /* ReponseDigimonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReponseDigimonList.swift; sourceTree = "<group>"; };
+		90946E2C2AFCAA8700732D0B /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		90946E2E2AFCAAC100732D0B /* ApiRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
+		90946E302AFCAB1F00732D0B /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
+		90946E342AFCAF3F00732D0B /* ListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
+		90946E352AFCAF3F00732D0B /* ListViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewCell.xib; sourceTree = "<group>"; };
+		90946E392AFCB0BB00732D0B /* NSObject+className.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+className.swift"; sourceTree = "<group>"; };
+		90946E3C2AFCBEA000732D0B /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		90946E3F2AFCC02A00732D0B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		90946E402AFCC02A00732D0B /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		90946E442AFCC12800732D0B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B032DFAD446E73E97E59AEC0 /* Pods_DigimonList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigimonList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3624699B9ED3D97D04049588 /* Pods_DigimonList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71F84C624E9FAB42F1A6E7D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B032DFAD446E73E97E59AEC0 /* Pods_DigimonList.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		90946E002AFCA66900732D0B = {
 			isa = PBXGroup;
 			children = (
 				90946E0B2AFCA66900732D0B /* DigimonList */,
 				90946E0A2AFCA66900732D0B /* Products */,
+				FF7B70A7D7865361F8757665 /* Pods */,
+				71F84C624E9FAB42F1A6E7D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +91,122 @@
 		90946E0B2AFCA66900732D0B /* DigimonList */ = {
 			isa = PBXGroup;
 			children = (
+				90946E382AFCB0AF00732D0B /* Extension */,
+				90946E202AFCA89F00732D0B /* Feature */,
 				90946E0C2AFCA66900732D0B /* AppDelegate.swift */,
-				90946E0E2AFCA66900732D0B /* SceneDelegate.swift */,
-				90946E102AFCA66900732D0B /* ViewController.swift */,
-				90946E122AFCA66900732D0B /* Main.storyboard */,
 				90946E152AFCA66B00732D0B /* Assets.xcassets */,
 				90946E172AFCA66B00732D0B /* LaunchScreen.storyboard */,
 				90946E1A2AFCA66B00732D0B /* Info.plist */,
 			);
 			path = DigimonList;
+			sourceTree = "<group>";
+		};
+		90946E202AFCA89F00732D0B /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				90946E432AFCC11900732D0B /* Main View */,
+				90946E3B2AFCBE8A00732D0B /* Collection View */,
+				90946E242AFCA8D700732D0B /* Network */,
+				90946E212AFCA8A600732D0B /* List View */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		90946E212AFCA8A600732D0B /* List View */ = {
+			isa = PBXGroup;
+			children = (
+				90946E232AFCA8B800732D0B /* View Model */,
+				90946E222AFCA8B500732D0B /* View */,
+			);
+			path = "List View";
+			sourceTree = "<group>";
+		};
+		90946E222AFCA8B500732D0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				90946E322AFCAF1F00732D0B /* Cell */,
+				90946E252AFCA8F200732D0B /* ListViewController.swift */,
+				90946E262AFCA8F200732D0B /* ListViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		90946E232AFCA8B800732D0B /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				90946E2C2AFCAA8700732D0B /* ListViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		90946E242AFCA8D700732D0B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				90946E292AFCAA2200732D0B /* Response */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		90946E292AFCAA2200732D0B /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				90946E2A2AFCAA3300732D0B /* ReponseDigimonList.swift */,
+				90946E2E2AFCAAC100732D0B /* ApiRouter.swift */,
+				90946E302AFCAB1F00732D0B /* ApiServices.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		90946E322AFCAF1F00732D0B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				90946E342AFCAF3F00732D0B /* ListViewCell.swift */,
+				90946E352AFCAF3F00732D0B /* ListViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		90946E382AFCB0AF00732D0B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				90946E392AFCB0BB00732D0B /* NSObject+className.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		90946E3B2AFCBE8A00732D0B /* Collection View */ = {
+			isa = PBXGroup;
+			children = (
+				90946E3E2AFCC00F00732D0B /* Cell */,
+				90946E3C2AFCBEA000732D0B /* CollectionViewController.swift */,
+			);
+			path = "Collection View";
+			sourceTree = "<group>";
+		};
+		90946E3E2AFCC00F00732D0B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				90946E3F2AFCC02A00732D0B /* CollectionViewCell.swift */,
+				90946E402AFCC02A00732D0B /* CollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		90946E432AFCC11900732D0B /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				90946E442AFCC12800732D0B /* MainViewController.swift */,
+			);
+			path = "Main View";
+			sourceTree = "<group>";
+		};
+		FF7B70A7D7865361F8757665 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73E714CC307A91E53791CA82 /* Pods-DigimonList.debug.xcconfig */,
+				8801570DC1E2878DAAEFD7EF /* Pods-DigimonList.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90946E1D2AFCA66B00732D0B /* Build configuration list for PBXNativeTarget "DigimonList" */;
 			buildPhases = (
+				BBE6645B57A4700871CC2830 /* [CP] Check Pods Manifest.lock */,
 				90946E052AFCA66900732D0B /* Sources */,
 				90946E062AFCA66900732D0B /* Frameworks */,
 				90946E072AFCA66900732D0B /* Resources */,
+				7AB1BBCDCD63EE402A43D18C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +271,78 @@
 			files = (
 				90946E192AFCA66B00732D0B /* LaunchScreen.storyboard in Resources */,
 				90946E162AFCA66B00732D0B /* Assets.xcassets in Resources */,
-				90946E142AFCA66900732D0B /* Main.storyboard in Resources */,
+				90946E422AFCC02A00732D0B /* CollectionViewCell.xib in Resources */,
+				90946E372AFCAF3F00732D0B /* ListViewCell.xib in Resources */,
+				90946E282AFCA8F200732D0B /* ListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7AB1BBCDCD63EE402A43D18C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DigimonList/Pods-DigimonList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DigimonList/Pods-DigimonList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DigimonList/Pods-DigimonList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBE6645B57A4700871CC2830 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DigimonList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		90946E052AFCA66900732D0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90946E112AFCA66900732D0B /* ViewController.swift in Sources */,
+				90946E412AFCC02A00732D0B /* CollectionViewCell.swift in Sources */,
+				90946E452AFCC12800732D0B /* MainViewController.swift in Sources */,
+				90946E3D2AFCBEA000732D0B /* CollectionViewController.swift in Sources */,
+				90946E312AFCAB1F00732D0B /* ApiServices.swift in Sources */,
+				90946E2B2AFCAA3300732D0B /* ReponseDigimonList.swift in Sources */,
+				90946E272AFCA8F200732D0B /* ListViewController.swift in Sources */,
+				90946E2F2AFCAAC100732D0B /* ApiRouter.swift in Sources */,
+				90946E2D2AFCAA8700732D0B /* ListViewModel.swift in Sources */,
+				90946E3A2AFCB0BB00732D0B /* NSObject+className.swift in Sources */,
 				90946E0D2AFCA66900732D0B /* AppDelegate.swift in Sources */,
-				90946E0F2AFCA66900732D0B /* SceneDelegate.swift in Sources */,
+				90946E362AFCAF3F00732D0B /* ListViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		90946E122AFCA66900732D0B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				90946E132AFCA66900732D0B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		90946E172AFCA66B00732D0B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,24 +475,27 @@
 		};
 		90946E1E2AFCA66B00732D0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E714CC307A91E53791CA82 /* Pods-DigimonList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XBNGPCQY3Y;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DigimonList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.martinus.DigimonList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -315,24 +506,27 @@
 		};
 		90946E1F2AFCA66B00732D0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8801570DC1E2878DAAEFD7EF /* Pods-DigimonList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XBNGPCQY3Y;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DigimonList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.martinus.DigimonList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
